@@ -1,0 +1,19 @@
+{
+  "name": "rootstrap",
+  "version": "1.0.0",
+  "description": "CLI to clone repos",
+  "main": "index.js",
+  "bin": {
+    "rootstrap": "index.js"
+  },
+  "author": "Rootstrap Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "caporal": "^0.10.0",
+    "colors": "^1.2.1",
+    "interpolate": "^0.1.0",
+    "prompt": "^1.0.0",
+    "shelljs": "^0.8.1",
+    "simple-git": "^1.92.0"
+  }
+}
